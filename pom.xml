@@ -1,0 +1,29 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.github.pio-bart</groupId>
+    <artifactId>libpublishing</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>LibPublishing</name>
+    <description>A collection of dependencies</description>
+    <url>https://github.com/pio-bart/libpublishing</url>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>pio-bart</name>
+            <url>https://maven.pkg.github.com/pio-bart/libpublishing</url>
+        </repository>
+    </distributionManagement>
+</project>
